@@ -1,11 +1,12 @@
 "use client";
+
 import React, { useEffect } from "react";
 import Rellax from "rellax";
-import { 
-  FaProjectDiagram, 
-  FaTools, 
-  FaUsers, 
-  FaCalendarAlt 
+import {
+  FaProjectDiagram,
+  FaTools,
+  FaUsers,
+  FaCalendarAlt
 } from 'react-icons/fa';
 
 function AboutBanner() {
@@ -23,38 +24,52 @@ function AboutBanner() {
         <div className="about-banner-container">
             {/* Banner Area */}
             <div className="about-banner-area-bg jarallax" style={styling}></div>
-            
+
             {/* Counter Area */}
             <div className="counter-up-wrapper mt-dec-80">
                 <div className="container">
                     <div className="row g-0">
-                        {/* Projects Counter */}
+
+                        {/* Contracts */}
                         <div className="col-lg-3 col-md-6 col-sm-6">
                             <div className="single-counter-up-one border-top border-left">
                                 <div className="icon-area">
                                     <FaProjectDiagram size={40} />
                                 </div>
-                                <p>Projects</p>
+                                <p>Contracts (AED) Million</p>
                                 <h3 className="title">
-                                    <span className="counter">100</span>+
+                                    <span className="counter">100</span>+ 
                                 </h3>
                             </div>
                         </div>
 
-                        {/* Services Counter */}
+                        {/* Expertise */}
                         <div className="col-lg-3 col-md-6 col-sm-6">
                             <div className="single-counter-up-one border-top">
                                 <div className="icon-area">
                                     <FaTools size={40} />
                                 </div>
-                                <p>Services</p>
+                                <p>Years of Expertise </p>
                                 <h3 className="title">
-                                    <span className="counter">16</span>+
+                                    <span className="counter">50</span>+ 
                                 </h3>
                             </div>
                         </div>
 
-                        {/* Clients Counter */}
+                        {/* Years of Excellence */}
+                        <div className="col-lg-3 col-md-6 col-sm-6">
+                            <div className="single-counter-up-one border-top">
+                                <div className="icon-area">
+                                    <FaCalendarAlt size={40} />
+                                </div>
+                                <p>Years of Excellence</p>
+                                <h3 className="title">
+                                    <span className="counter">12</span>+ 
+                                </h3>
+                            </div>
+                        </div>
+
+                        {/* Clients */}
                         <div className="col-lg-3 col-md-6 col-sm-6">
                             <div className="single-counter-up-one border-top">
                                 <div className="icon-area">
@@ -62,23 +77,11 @@ function AboutBanner() {
                                 </div>
                                 <p>Clients</p>
                                 <h3 className="title">
-                                    <span className="counter">100</span>+
+                                    <span className="counter">200</span>+
                                 </h3>
                             </div>
                         </div>
 
-                        {/* Experience Counter */}
-                        <div className="col-lg-3 col-md-6 col-sm-6">
-                            <div className="single-counter-up-one border-top">
-                                <div className="icon-area">
-                                    <FaCalendarAlt size={40} />
-                                </div>
-                                <p>Experience</p>
-                                <h3 className="title">
-                                    <span className="counter">14</span>
-                                </h3>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>

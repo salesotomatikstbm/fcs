@@ -1,7 +1,18 @@
 import React from 'react';
-import { FaGift, FaPenFancy, FaPeopleArrows, FaRobot, FaImage, FaMedkit, FaShoppingBag, FaPrint } from 'react-icons/fa';
+import {
+    FaGift,
+    FaPenFancy,
+    FaPeopleArrows,
+    FaRobot,
+    FaImage,
+    FaMedkit,
+    FaShoppingBag,
+    FaPrint
+} from 'react-icons/fa';
 
 function ServiceThree() {
+    const iconStyle = { color: 'black' };
+
     return (
         <div>
             {/* rts service area start */}
@@ -12,118 +23,124 @@ function ServiceThree() {
                             <div className="title-main-wrapper-center-three">
                                 <h2 className="title">Our Services</h2>
                                 <p>
-                                    We've got everything you need to power up your workspace and brand. Check out our key offerings.
+                                    We offer comprehensive solutions to meet your corporate, branding, event, and trading needs. Explore our diverse range of services.
                                 </p>
                             </div>
                         </div>
                     </div>
                     <div className="row g-0 mt--80">
-                        {/* Customized Gifts & Promotional Products */}
+
+                        {/* 1. Office Supplies and Smart Solutions */}
                         <div className="col-lg-3 col-md-6 col-sm-12" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
                             <div className="single-service-three">
                                 <div className="icon">
-                                    <FaGift size={40} />
+
+                                    <img src="assets/images/icons/1.png" alt="service" />
                                 </div>
-                                <h5 className="title">Smart Office Solutions</h5>
+                                <h5 className="title">Office Supplies & Smart Solutions</h5>
                                 <p className="disc">
-                                Equip your workspace with eco-friendly stationery, efficient storage, and modern office equipment.         </p>
+                                    Eco-friendly stationery, modern office machines, IT supplies, pantry items, and custom office solutions.
+                                </p>
                             </div>
                         </div>
 
-                        {/* Office Supplies & Stationery Solutions */}
+                        {/* 2. Corporate Gifting & Promotional Merchandise */}
                         <div className="col-lg-3 col-md-6 col-sm-12" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
                             <div className="single-service-three bg-light-3">
                                 <div className="icon">
-                                    <FaPenFancy size={40} />
+                                    <img src="assets/images/icons/2.png" alt="service" />
                                 </div>
-                                <h5 className="title">Workplace Wellness Solutions</h5>
+                                <h5 className="title">Corporate Gifting & Merchandise</h5>
                                 <p className="disc">
-                                Boost workplace well-being and productivity with our wellness and support solutions.    </p>
+                                    Diaries, eco gifts, VIP items, tech-based products, wearables, and fully branded custom gifts.
+                                </p>
                             </div>
                         </div>
 
-                        {/* Event Management Services */}
+                        {/* 3. Corporate Branding & Marketing Solutions */}
                         <div className="col-lg-3 col-md-6 col-sm-12" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
                             <div className="single-service-three">
                                 <div className="icon">
-                                    <FaPeopleArrows size={40} />
+                                    <img src="assets/images/icons/3.png" alt="service" />
                                 </div>
-                                <h5 className="title">Corporate Branding & Marketing Solutions</h5>
+                                <h5 className="title">Branding & Marketing Solutions</h5>
                                 <p className="disc">
-                                Make an impression with powerful branding, retail POS solutions, and professional event support.
+                                    Logo design, signage, flyers, uniforms, hoardings, and retail displays to elevate brand presence.
                                 </p>
                             </div>
                         </div>
 
-                        {/* Educational Partnerships (Otomatiks Activity Center) */}
+                        {/* 4. Event Management */}
                         <div className="col-lg-3 col-md-6 col-sm-12" data-aos="fade-up" data-aos-delay="700" data-aos-duration="1000">
                             <div className="single-service-three bg-light-3">
                                 <div className="icon">
-                                    <FaRobot size={40} />
+                                    <img src="assets/images/icons/4.png" alt="service" />
                                 </div>
-                                <h5 className="title">Printing & Communication Services</h5>
+                                <h5 className="title">Event Management</h5>
                                 <p className="disc">
-                                Deliver your message with high-quality print materials tailored for every business need.
+                                    Concept to execution: corporate events, public functions, seminars, and personal celebrations.
                                 </p>
                             </div>
                         </div>
 
-                        {/* Corporate Branding Solutions */}
-                        <div className="col-lg-3 col-md-6 col-sm-12" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
-                            <div className="single-service-three bg-light-3">
-                                <div className="icon">
-                                    <FaImage size={40} />
-                                </div>
-                                <h5 className="title">Custom Gifting & Merchandise</h5>
-                                <p className="disc">
-                                Build connections with customized gifts, branded merchandise, and school-specific solutions.
-                                </p>
-                            </div>
-                        </div>
-
-                        {/* Healthcare & Surgical Consumables */}
+                        {/* 5. Healthcare & General Supplies */}
                         <div className="col-lg-3 col-md-6 col-sm-12" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
                             <div className="single-service-three">
                                 <div className="icon">
-                                    <FaMedkit size={40} />
+                                    <img src="assets/images/icons/5.png" alt="service" />
                                 </div>
                                 <h5 className="title">Healthcare & General Supplies</h5>
                                 <p className="disc">
-                                Trusted medical and general trading products to support diverse operational needs.
+                                    Trusted source for non-medical healthcare products, PPE, and customized supply needs.
                                 </p>
                             </div>
                         </div>
 
-                        {/* Retail & POS Marketing Solutions */}
+                        {/* 6. Hospitality Specialist */}
                         <div className="col-lg-3 col-md-6 col-sm-12" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
                             <div className="single-service-three bg-light-3">
                                 <div className="icon">
-                                    <FaShoppingBag size={40} />
+                                    <img src="assets/images/icons/6.png" alt="service" />
                                 </div>
-                                <h5 className="title"> Otomatiks
-                                </h5>
+                                <h5 className="title">Hospitality Specialist</h5>
                                 <p className="disc">
-                                Hands-on learning experiences. We collaborate with institutions for activity-based programs through Otomatiks.          </p>
+                                    Supplies for hotels, décor, kitchen equipment, landscaping, and tailored hospitality solutions.
+                                </p>
                             </div>
                         </div>
 
-                        {/* Printing & Packaging Solutions */}
-                        <div className="col-lg-3 col-md-6 col-sm-12" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+                        {/* 7. Workspace & Wellness Solutions */}
+                        <div className="col-lg-3 col-md-6 col-sm-12" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
                             <div className="single-service-three">
                                 <div className="icon">
-                                    <FaPrint size={40} />
+                                    <img src="assets/images/icons/7.png" alt="service" />
                                 </div>
-                                <h5 className="title"> Event  Management</h5>
+                                <h5 className="title">Workspace & Wellness</h5>
                                 <p className="disc">
-                                    From planning to execution – we handle it all for corporate events, seminars, and cultural programs.            </p>
+                                    Ergonomic furniture, green décor, air purifiers, waste solutions, and well-being enhancements.
+                                </p>
                             </div>
                         </div>
+
+                        {/* 8. General Trading */}
+                        <div className="col-lg-3 col-md-6 col-sm-12" data-aos="fade-up" data-aos-delay="700" data-aos-duration="1000">
+                            <div className="single-service-three bg-light-3">
+                                <div className="icon">
+                                    <img src="assets/images/icons/8.png" alt="service" />
+                                </div>
+                                <h5 className="title">General Trading</h5>
+                                <p className="disc">
+                                    We source and deliver anything — global procurement for any challenge or unique need.
+                                </p>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
             {/* rts service area end */}
         </div>
-    )
+    );
 }
 
 export default ServiceThree;

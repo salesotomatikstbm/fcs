@@ -15,7 +15,7 @@ function FooterOne() {
                                     <img src="/assets/images/logo/logo.png" alt="logo" />
                                 </Link>
                                 <p className="disc">
-                                    We deliver more than just products we provide smart, tailored solutions that work for your business.
+                                    Everything your business needs, Delivered.
                                 </p>
                             </div>
                         </div>

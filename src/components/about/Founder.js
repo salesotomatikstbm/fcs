@@ -25,7 +25,7 @@ const Founder = () => {
                             <a href="#">
                                 <h3 className="title  text-white">Anil Nair</h3>
                             </a>
-                            <span className="deg  text-white">Position</span>
+                            <span className="deg  text-white">Director</span>
                         </div>
                     </div>
                 </div>
@@ -40,7 +40,7 @@ const Founder = () => {
                             <a href="#">
                                 <h3 className="title  text-white">Kannan K V</h3>
                             </a>
-                            <span className="deg  text-white">Position</span>
+                            <span className="deg  text-white">Director</span>
                         </div>
                     </div>
                 </div>
@@ -55,7 +55,7 @@ const Founder = () => {
                             <a href="#">
                                 <h3 className="title text-white" >Mohamed Ali J</h3>
                             </a>
-                            <span className="deg  text-white">Position</span>
+                            <span className="deg  text-white">Director</span>
                         </div>
                     </div>
                 </div>

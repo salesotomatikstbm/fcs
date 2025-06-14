@@ -85,7 +85,7 @@ export default function Home() {
                                             type="text"
                                             id="phone"
                                             name="phone"
-                                            placeholder="+971 55 586 7611"
+                                           
                                         />
                                     </div>
 

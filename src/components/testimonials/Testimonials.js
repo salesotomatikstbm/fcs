@@ -56,7 +56,7 @@ function Testimonials() {
                                                     </div>
                                                     <div className="information">
                                                         <h6 className="title mb-1">Anil Nair</h6>
-                                                        <span className="desig text-muted">Position</span>
+                                                        <span className="desig text-muted">Director</span>
                                                     </div>
                                                 </div>
                                             </div>
@@ -79,7 +79,7 @@ function Testimonials() {
                                                     </div>
                                                     <div className="information">
                                                         <h6 className="title mb-1">Kannan K V</h6>
-                                                        <span className="desig text-muted">Position</span>
+                                                        <span className="desig text-muted">Director</span>
                                                     </div>
                                                 </div>
                                             </div>
@@ -103,7 +103,7 @@ With over 15 years of experience, I’m proud to lead our journey toward excelle
                                                     </div>
                                                     <div className="information">
                                                         <h6 className="title mb-1">Mohamed Ali J</h6>
-                                                        <span className="desig text-muted">Position</span>
+                                                        <span className="desig text-muted">Director</span>
                                                     </div>
                                                 </div>
                                             </div>

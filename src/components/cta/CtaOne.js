@@ -37,7 +37,7 @@ function CtaOne() {
                                     Who We Are
                                     </h3>
                                     <p className="wow fadeInUp" data-wow-delay=".3s">
-                                    At First Choice Supplies, we don’t just deliver products — we deliver solutions that work! From premium office supplies to cutting-edge robotics education and stunning LED facade lighting projects, we cater to diverse business needs.
+                                   We are corporate specialists delivering tailored solutions that drive success. From premium office supplies to advanced robotics education and mesmerizing architectural lighting solutions, we cater to the diverse and evolving needs of businesses, ensuring excellence, innovation, and unmatched quality in every solution we provide.
                                     </p>
                                     {/* <a
                                         href="/contact"

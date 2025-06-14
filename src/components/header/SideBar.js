@@ -21,34 +21,38 @@ function SideBar({ isSidebarOpen, toggleSidebar }) {
           <nav className="nav-main mainmenu-nav mt--30">
             <ul className="mainmenu metismenu" id="mobile-menu-active">
 
-            <li>
+              <li>
                 <Link href="/" className="main">
-               Home
+                  Home
                 </Link>
               </li>
 
-            <li>
+              <li>
                 <Link href="about" className="main">
-                About Us
+                  About Us
                 </Link>
               </li>
 
 
-            <li>
+              <li>
                 <Link href="service" className="main">
-                Services
+                  Services
                 </Link>
               </li>
 
 
 
-            <li>
+              <li>
                 <Link href="our-customers" className="main">
-                Our Customers
+                  Our Customers
                 </Link>
               </li>
 
-
+              <li>
+                <Link className="main" href="/our-group">
+                  Our Group of Companies
+                </Link>
+              </li>
               <li>
                 <Link href="contact" className="main">
                   Contact
