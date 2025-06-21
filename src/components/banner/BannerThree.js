@@ -14,13 +14,14 @@ function BannerThree() {
   return (
     <div>
       {/* banner area start */}
-      <div className="rts-banner-three-area rts-section-gap bg-banner-three">
+      <div className="rts-banner-three-area rts-section-gap bg-banner-three ">
         <div className="container pb--180 pb_sm--0">
           <div className="row">
             <div className="col-lg-6">
               <div className="banner-three-wrapper">
-                <span className="pre-title" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">First Choice Supplies</span>
-                <h1 className="title" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">First Choice Supplies General Trading LLC</h1>
+                <img src="assets/images/home.png" alt="banner" />
+                {/* <span className="pre-title" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">First Choice Supplies</span> */}
+                <h1 className="title" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">Everything Your Business Needs, Delivered</h1>
               </div>
             </div>
             <div className="col-lg-6">

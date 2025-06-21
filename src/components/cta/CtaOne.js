@@ -34,7 +34,7 @@ function CtaOne() {
                                 </div>
                                 <div className="left-area">
                                     <h3 className="title wow fadeInUp" data-wow-delay=".1s">
-                                    Who We Are
+                                    Your Trusted Corporate Solutions Partner
                                     </h3>
                                     <p className="wow fadeInUp" data-wow-delay=".3s">
                                    We are corporate specialists delivering tailored solutions that drive success. From premium office supplies to advanced robotics education and mesmerizing architectural lighting solutions, we cater to the diverse and evolving needs of businesses, ensuring excellence, innovation, and unmatched quality in every solution we provide.

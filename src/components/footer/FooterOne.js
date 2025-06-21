@@ -28,10 +28,11 @@ function FooterOne() {
                                         <p className="parent">Company</p>
                                         <ul>
                                             <li><Link href="/about">About us</Link></li>
-                                            <li><Link href="/service">Service</Link></li>
+                                            <li><Link href="/service">Services</Link></li>
                                             
                                             <li><Link href="/our-customers">Our Customers</Link></li>
-                                            <li><Link href="/contact">Contact</Link></li>
+                                            <li><Link href="/our-group">Our Group Of Companies</Link></li>
+                                            <li><Link href="/contact">Contact Us</Link></li>
                                         </ul>
                                     </div>
                                 </div>
