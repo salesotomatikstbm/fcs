@@ -1,4 +1,3 @@
-
 "use client"
 import BackToTop from "@/components/common/BackToTop";
 import FooterOne from "@/components/footer/FooterOne";
@@ -6,24 +5,25 @@ import HeaderTwo from "@/components/header/HeaderTwo";
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import { ReactSVG } from 'react-svg';
+
 export default function Home() {
     const form = useRef();
 
     const sendEmail = (e) => {
-        e.preventDefault(); // Prevent default form submission
+        e.preventDefault();
 
         emailjs
             .sendForm(
                 "your_service_id", // Replace with your Service ID
                 "your_template_id", // Replace with your Template ID
                 form.current,
-                "your_public_key"  // Replace with your Public Key
+                "your_public_key" // Replace with your Public Key
             )
             .then(
                 (result) => {
                     console.log(result.text);
                     alert("Message sent successfully!");
-                    form.current.reset(); // Reset the form after submission
+                    form.current.reset();
                 },
                 (error) => {
                     console.log(error.text);
@@ -31,6 +31,7 @@ export default function Home() {
                 }
             );
     };
+
     return (
         <div className='#'>
             <HeaderTwo />
@@ -39,7 +40,7 @@ export default function Home() {
                 {/* contact banner areas start */}
                 <div className="contact-page-banner jarallax bg_iamge"></div>
                 {/* contact banner areas end */}
-                {/* contact area form wrapper start */}
+
                 <div className="contact-area-form-wrapper rts-section-gapTop">
                     <div className="container-contact">
                         <div className="row">
@@ -58,7 +59,7 @@ export default function Home() {
                                 >
                                     <div className="half-input-wrapper">
                                         <div className="single">
-                                            <label htmlFor="name">First name</label>
+                                            <label htmlFor="name">First name<span style={{ color: 'red' }}> *</span></label>
                                             <input
                                                 type="text"
                                                 id="name"
@@ -68,7 +69,7 @@ export default function Home() {
                                             />
                                         </div>
                                         <div className="single">
-                                            <label htmlFor="last">Last name</label>
+                                            <label htmlFor="last">Last name<span style={{ color: 'red' }}> *</span></label>
                                             <input
                                                 type="text"
                                                 id="last"
@@ -78,26 +79,38 @@ export default function Home() {
                                             />
                                         </div>
                                     </div>
-                                  
+
                                     <div className="single">
-                                        <label htmlFor="phone">Phone</label>
+                                        <label htmlFor="phone">Phone<span style={{ color: 'red' }}> *</span></label>
                                         <input
-                                            type="text"
+                                            type="tel"
                                             id="phone"
                                             name="phone"
-                                           
+                                            placeholder=""
+                                            pattern="^[0-9+\-]+$"
                                         />
                                     </div>
 
                                     <div className="single">
-                                        <label htmlFor="service">Service</label>
-                                        <input
-                                            type="text"
-                                            id="phone"
-                                            name="phone"
-                                            placeholder="Request service"
-                                        />
+                                        <label htmlFor="service">Service<span style={{ color: 'red' }}> *</span></label>
+                                        <select
+                                            id="service"
+                                            name="service"
+                                            required
+                                        >
+                                            <option value="">-- Select a service --</option>
+                                            <option value="Office Supplies & Smart Solutions">Office Supplies & Smart Solutions</option>
+                                            <option value="Corporate Gifting & Merchandise">Corporate Gifting & Merchandise</option>
+                                            <option value="Branding & Marketing Solutions">Branding & Marketing Solutions</option>
+                                            <option value="Event Management">Event Management</option>
+                                            <option value="Healthcare & General Supplies">Healthcare & General Supplies</option>
+                                            <option value="Hospitality Specialist">Hospitality Specialist</option>
+                                            <option value="Workspace & Wellness">Workspace & Wellness</option>
+                                                <option value="General Trading">General Trading</option>
+                                            <option value="Others">Others</option>
+                                        </select>
                                     </div>
+
                                     <div className="single">
                                         <label htmlFor="message">Message</label>
                                         <textarea
@@ -107,7 +120,7 @@ export default function Home() {
                                             required
                                         />
                                     </div>
-                                   
+
                                     <button type="submit" className="rts-btn btn-primary">
                                         Send message
                                         <ReactSVG
@@ -120,7 +133,7 @@ export default function Home() {
                         </div>
                     </div>
                 </div>
-                {/* contact area form wrapper end */}
+
                 <div className="rts-google-map-area rts-section-gapTop">
                     <div className="container">
                         <div className="row">
@@ -140,54 +153,49 @@ export default function Home() {
                         </div>
                     </div>
                 </div>
-                {/* rts location area start */}
+
                 <div className="rts-location-contact-area pt--70">
-    <div className="container">
-        <div className="row section-seperator-b pb--90 g-5">
-            <div className="col-lg-4 col-md-6 col-sm-12">
-                <div className="single-location-area-contact">
-                    <div className="icon">
-                        <i className="fa-sharp fa-regular fa-location-dot" />
+                    <div className="container">
+                        <div className="row section-seperator-b pb--90 g-5">
+                            <div className="col-lg-4 col-md-6 col-sm-12">
+                                <div className="single-location-area-contact">
+                                    <div className="icon">
+                                        <i className="fa-sharp fa-regular fa-location-dot" />
+                                    </div>
+                                    <p>Phone</p>
+                                    <span>
+                                        <a href="tel:+971555867611">+971 55 586 7611</a>
+                                    </span>
+                                </div>
+                            </div>
+                            <div className="col-lg-4 col-md-6 col-sm-12">
+                                <div className="single-location-area-contact">
+                                    <div className="icon">
+                                        <i className="fa-sharp fa-regular fa-location-dot" />
+                                    </div>
+                                    <p>Email</p>
+                                    <span>
+                                        <a href="mailto:mohamed@firstchoicestationery.ae">
+                                            mohamed@firstchoicestationery.ae
+                                        </a>
+                                    </span>
+                                </div>
+                            </div>
+                            <div className="col-lg-4 col-md-6 col-sm-12">
+                                <div className="single-location-area-contact">
+                                    <div className="icon">
+                                        <i className="fa-sharp fa-regular fa-location-dot" />
+                                    </div>
+                                    <p>Address</p>
+                                    <span>
+                                        Opp. DBC Building G5, Al Muhairi Plaza, Al Kabaisi, Deira, Dubai, UAE
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <p>Phone</p>
-                    <span>
-                        <a href="tel:+971555867611">+971 55 586 7611</a>
-                    </span>
                 </div>
-            </div>
-            <div className="col-lg-4 col-md-6 col-sm-12">
-                <div className="single-location-area-contact">
-                    <div className="icon">
-                        <i className="fa-sharp fa-regular fa-location-dot" />
-                    </div>
-                    <p>Email</p>
-                    <span>
-                        <a href="mailto:mohamed@firstchoicestationery.ae">
-                            mohamed@firstchoicestationery.ae
-                        </a>
-                    </span>
-                </div>
-            </div>
-            <div className="col-lg-4 col-md-6 col-sm-12">
-                <div className="single-location-area-contact">
-                    <div className="icon">
-                        <i className="fa-sharp fa-regular fa-location-dot" />
-                    </div>
-                    <p>Address</p>
-                    <span>
-                        Opp. DBC Building G5, Al Muhairi Plaza, Al Kabaisi, Deira, Dubai, UAE
-                    </span>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-                {/* rts location area end */}
             </>
-
-
-
 
             <FooterOne />
             <BackToTop />

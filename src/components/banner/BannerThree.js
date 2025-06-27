@@ -19,8 +19,8 @@ function BannerThree() {
           <div className="row">
             <div className="col-lg-6">
               <div className="banner-three-wrapper">
-                <img src="assets/images/home.png" alt="banner" />
-                {/* <span className="pre-title" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">First Choice Supplies</span> */}
+                {/* <img src="assets/images/home.png" alt="banner" />
+                <span className="pre-title" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">First Choice Supplies</span> */}
                 <h1 className="title" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">Everything Your Business Needs, Delivered</h1>
               </div>
             </div>

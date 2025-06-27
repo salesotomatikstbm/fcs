@@ -6,9 +6,14 @@ function Wedo() {
             <div className="container my-5">
                 <div className="row">
                     <div className="col-lg-12">
-                        <p className="p1 mb-4" data-aos-duration="1000" data-aos-delay="100">
+                        <h1
+                            className="title  text-center"
+                            data-aos-delay="500"
+                            data-aos-duration="1000"
+                            style={{ marginBottom: "24px"}}
+                        >
                             With First Choice Supplies, your business is always first!
-                        </p>
+                        </h1>
 
                         <div
                             className="between-area-main-wrapper"

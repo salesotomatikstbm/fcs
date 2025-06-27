@@ -41,7 +41,7 @@ function Nav() {
 
  <li>
                             <Link className="nav-link" href="/our-group">
-                                Our Group of Companies
+                                Our Group Companies
                             </Link>
                         </li>
 

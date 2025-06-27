@@ -50,7 +50,7 @@ function SideBar({ isSidebarOpen, toggleSidebar }) {
 
               <li>
                 <Link className="main" href="/our-group">
-                  Our Group of Companies
+                  Our Group Companies
                 </Link>
               </li>
               <li>

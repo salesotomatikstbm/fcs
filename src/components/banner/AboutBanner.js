@@ -31,7 +31,7 @@ function AboutBanner() {
                     <div className="row g-0">
 
                         {/* Contracts */}
-                        <div className="col-lg-3 col-md-6 col-sm-6">
+                        <div className="col-lg-4 col-md-6 col-sm-6">
                             <div className="single-counter-up-one border-top border-left">
                                 <div className="icon-area">
                                     <FaProjectDiagram size={40} />
@@ -44,7 +44,7 @@ function AboutBanner() {
                         </div>
 
                         {/* Expertise */}
-                        <div className="col-lg-3 col-md-6 col-sm-6">
+                        {/* <div className="col-lg-3 col-md-6 col-sm-6">
                             <div className="single-counter-up-one border-top">
                                 <div className="icon-area">
                                     <FaTools size={40} />
@@ -54,10 +54,10 @@ function AboutBanner() {
                                     <span className="counter">50</span>+ 
                                 </h3>
                             </div>
-                        </div>
+                        </div> */}
 
                         {/* Years of Excellence */}
-                        <div className="col-lg-3 col-md-6 col-sm-6">
+                        <div className="col-lg-4 col-md-6 col-sm-6">
                             <div className="single-counter-up-one border-top">
                                 <div className="icon-area">
                                     <FaCalendarAlt size={40} />
@@ -70,14 +70,14 @@ function AboutBanner() {
                         </div>
 
                         {/* Clients */}
-                        <div className="col-lg-3 col-md-6 col-sm-6">
+                        <div className="col-lg-4 col-md-6 col-sm-6">
                             <div className="single-counter-up-one border-top">
                                 <div className="icon-area">
                                     <FaUsers size={40} />
                                 </div>
                                 <p>Clients</p>
                                 <h3 className="title">
-                                    <span className="counter">200</span>+
+                                    <span className="counter">1000</span>+
                                 </h3>
                             </div>
                         </div>
