@@ -21,14 +21,31 @@ function BannerThree() {
               <div className="banner-three-wrapper">
                 {/* <img src="assets/images/home.png" alt="banner" />
                 <span className="pre-title" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">First Choice Supplies</span> */}
-                <h1 className="title" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">Everything Your Business Needs, Delivered</h1>
+                <h1
+                  className="title"
+                  data-aos="fade-up"
+                  data-aos-delay="500"
+                  data-aos-duration="1000"
+                  style={{ fontSize: "62px" }}
+                >
+                  Everything Your Business Needs, Delivered
+                </h1>
+
               </div>
             </div>
             <div className="col-lg-6">
               <div className="inner-content-wrapper-three">
-                <p data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
-                Welcome to First Choice Supplies General Trading LLC — a brand that redefines office essentials, workspace solutions, corporate gifts, education partnerships, and creative video production in the UAE! With a legacy of excellence since 2014, we take pride in transforming workspaces and ideas into reality.
-                </p>
+                <div style={{ display: "flex", justifyContent: "center" }}>
+                  <p
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                    data-aos-duration="1000"
+                    style={{ maxWidth: "800px", textAlign: "justify" }}
+                  >
+                    Welcome to First Choice Supplies General Trading LLC — a brand that redefines office essentials, workspace solutions, corporate gifts, education partnerships, and creative video production in the UAE! With a legacy of excellence since 2014, we take pride in transforming workspaces and ideas into reality.
+                  </p>
+                </div>
+
                 <a
                   href="/free-consultation"
                   className="rts-btn btn-primary" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000"
