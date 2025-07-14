@@ -1,9 +1,10 @@
 import React from 'react';
 import { FaBuilding, FaUniversity, FaHospital, FaShoppingCart, FaSchool, FaUsers, FaHotel } from 'react-icons/fa';
+import BrandArea from '../brand/Brand';
 
 const Client = () => {
   return (
-    <div className="single-large-case-studies-area-details  rts-section-gapBottom">
+    <div className="single-large-case-studies-area-details ">
       <div className="container">
 
         <div className="keybenefits-area rts-section-gapTop">
@@ -15,7 +16,11 @@ const Client = () => {
                 </div>
               </div>
             </div>
-            <div className="row g-0 mt--35">
+
+<BrandArea />
+
+
+            {/* <div className="row g-0 mt--35">
               <div className="col-lg-3" data-aos-duration="1000" data-aos-delay="100">
                 <div className="single-benefits-area-wrapper bg-light text-center p-4">
                   <FaBuilding size={40} />
@@ -64,7 +69,7 @@ const Client = () => {
                   <h5 className="title mt-3">Rotana Hotels</h5>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
 

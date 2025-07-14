@@ -28,6 +28,7 @@ export default function Home() {
             <ServiceThree />
             {/* <ServiceFive /> */}
             {/* <FeatureTwo /> */}
+            
             <Clint />
             <ServiceOne />
             {/* <Project /> */}
